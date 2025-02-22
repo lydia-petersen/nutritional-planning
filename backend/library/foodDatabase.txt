@@ -1,0 +1,65 @@
+mango,104,67,1,18,15,0,2
+cantaloupe,85,29,1,7,7,0,14
+honeydew,90,32,0,8,7,0,16
+watermelon,80,24,0,6,5,0,1
+nectarine,136,60,1,14,11,0,0
+orange,131,62,1,15,12,0,0
+papaya,74,29,0,7,4,0,2
+peach,98,38,1,9,8,0,0
+pear,166,96,1,26,16,0,2
+pineapple,82,42,0,11,8,0,1
+plum,66,30,0,8,7,0,0
+pomegranate,77,53,1,13,13,0,2
+prunes - dried,25,60,1,16,10,0,1
+raisins,37,110,1,29,22,0,4
+raspberries,65,34,1,8,3,0,1
+strawberries,84,27,1,6,4,0,1
+strawberries - frozen,117,41,1,11,5,0,2
+biscuit - from mix,30,97,2,14,3,4,273
+biscuit - homemade,60,212,4,27,1,10,348
+croissant,57,231,5,26,6,12,424
+muffin - blueberry,54,149,3,24,0,5,216
+muffin - bran,55,159,4,27,0,5,271
+muffin - carron,113,344,7,49,17,14,396
+muffin - chocolate chip,113,366,8,53,16,14,341
+chocolate chip cookie - commercial,20,98,1,13,7,5,59
+chocolate chip cookie - homemade,32,156,2,19,0,9,116
+fig, 32,111,1,23,15,2,112
+ginger snaps,14,58,1,11,3,1,92
+graham crackers,14,59,1,11,4,1,85
+molasses,30,129,2,22,5,4,138
+oatmeal with raisins - commercial,26,117,2,18,6,5,100
+oatmeal no raisins - homemade,30,134,2,20,0,5,179
+peanut butter sandwich,28,134,2,18,10,6,103
+peanut butter,40,190,4,24,0,10,207
+shortbread - commercial,16,80,1,10,2,4,73
+shortbread - homemade,33,185,2,19,7,12,130
+animal crackers,10,45,1,7,1,1,39
+sugar cookies - commercial,30143,2,20,11,6,107
+sugar cookies - homemade,32,142,2,25,16,4,72
+blade roast,75,200,26,0,0,10,46
+blade steak,75,227,23,0,0,14,49
+composite roast,75,181,24,0,0,8,40
+composite steak,75,196,25,0,0,9,40
+cross rib roast,75,197,27,0,0,9,52
+ground beef - extra lean,75,167,23,0,0,8,65
+ground beef - lean,75,194,22,0,0,11,70
+ground beef - medium,75,214,22,0,0,13,68
+ground beef - regular,75,243,22,0,0,17,78
+tenderloin steak, 75,170,24,0,0,7,50
+chicken broiler breast - with skin,75,142,19,0,0,7,45
+chicken broiler breast,75,119,25,0,0,2,56
+checken broiler drumstick - with skin,75,161,16,0,0,10,68
+chicken broiler drumstick,75,127,19,0,0,5,71
+chicken broiler thigh - with skin,75,187,15,0,0,14,63
+chicken broiler thigh,75,127,19,0,0,5,66
+chicken broiler wing - with skin,75,218,20,0,0,15,62
+ground chicken - lean,75,153,16,0,0,9,51
+duck - domesticated,75,253,14,0,0,21,44
+duck - wild,75,128,23,0,0,3,40
+goose - domesticated,75,179,22,0,0,10,57
+goose - wild,75,150,23,0,0,6,57
+turkey - dark meat with skin,75,162,17,0,0,9,60
+turkey - light meat with skin,75,143,21,0,0,4,50
+turkey - light mean,75,116,21,0,0,2,51
+ground turkey,75,176,21,0,0,10,80

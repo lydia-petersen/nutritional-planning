@@ -1,0 +1,31 @@
+form {
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3B5AC;
+
+    .form-element {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    label {
+        margin-right: 10px;
+    }
+
+    input {
+        width: 100px;
+        background-color: inherit;
+        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    }
+    input:focus {
+        outline: none;
+        border-color: #90BEA7;
+    }
+
+    #names-list {
+        background-color: pink;
+    }
+}
