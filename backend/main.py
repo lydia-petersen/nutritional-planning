@@ -7,11 +7,18 @@ from typing import List
 from library.foodItem import FoodItem
 from library.foodDatabase import FoodDatabase
 
-class Fruit(BaseModel):
-    name: str
+class NamesList(BaseModel):
+    names: list[str]
 
-class Fruits(BaseModel):
-    fruits: List[Fruit]
+class FoodItem(BaseModel):
+    name: str
+    amount: float
+    cals: float = 0
+    protein: float = 0
+    carbs: float = 0
+    sugar: float = 0
+    fat: float = 0
+    sodium: float = 0
 
 app = FastAPI()
 
@@ -27,22 +34,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-class NamesList(BaseModel):
-    names: list[str]
-
-class FoodItem(BaseModel):
-    name: str
-    amount: float
-    cals: float = 0
-    protein: float = 0
-    carbs: float = 0
-    sugar: float = 0
-    fat: float = 0
-    sodium: float = 0
 
 database = FoodDatabase()
-for f in database.foods:
-    print(f)
 
 @app.get("/foods/{foodName}/amount/{amount}")
 def getFood(foodName: str, amount: float):
@@ -65,13 +58,6 @@ def getFood(foodName: str, amount: float):
 @app.get("/names-list")
 def getNamesList():
     return NamesList(names=database.getNamesList())
-
-"""
-@app.post("/weight/{weight}/height/{height}")
-def changeWeight(weight: int, height: int): #weight (kg), #height (cm)
-    #set weight, height, gender
-    return
-"""
 
 
 if __name__ == "__main__":
