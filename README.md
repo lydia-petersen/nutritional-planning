@@ -49,6 +49,8 @@ Key features include:
 
 This tool is perfect for anyone looking to monitor their diet, track their nutrient intake, or simply learn more about the nutritional content of the foods they eat.  Whether you're following a specific diet, trying to eat healthier, or just curious about food nutrition, this project aims to provide a user-friendly and informative experience.
 
+All the nutritional information used in the project was retrieved from: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/nutrition/fiche-nutri-data/nvscf-vnqau-eng.pdf
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
