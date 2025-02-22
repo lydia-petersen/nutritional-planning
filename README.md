@@ -56,29 +56,42 @@ This tool is perfect for anyone looking to monitor their diet, track their nutri
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 If the follwing are not installed, follow the instructions below to set up your computer:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/lydia-petersen/Nutritional-Planning.git
+   git clone https://github.com/lydia-petersen/nutritional-planning.git
    ```
-2. Install NPM packages
+2. Install NPM packages in the 'frontend' folder:
    ```sh
    npm install
+   npm install axios
    ```
+3. Navigate to the 'backend folder' run the command:
+   ```sh
+   pip install -r ./requirements.txt -> from backend folder
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+### Running Program
+
+To run the nutritional planning program do the following:
+
+1. Open two different terminals in your code editor
+2. Navigate to the 'backend' folder and run the main python file:
+   ```sh
+   python ./main.py
+   ```
+3. On the second terminal navigate to the 'frontend' folder and run the command:
+   ```sh
+   npm run dev
+   ```
+4. A local URL will appear. Click on it to access the program
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
