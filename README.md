@@ -24,6 +24,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#running-the-program">Running the Program</a></li>
       </ul>
     </li>
     <li><a href="#future-improvements">Future Improvements</a></li>
@@ -71,14 +72,14 @@ If the follwing are not installed, follow the instructions below to set up your 
    ```
 3. Navigate to the 'backend folder' run the command:
    ```sh
-   pip install -r ./requirements.txt -> from backend folder
+   pip install -r ./requirements.txt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
-### Running Program
+### Running the Program
 
 To run the nutritional planning program do the following:
 
@@ -92,6 +93,8 @@ To run the nutritional planning program do the following:
    npm run dev
    ```
 4. A local URL will appear. Click on it to access the program
+   
+   Note: If the URL is something other than http://localhost:5173, copy it, add it to the origins list in main.py, and restart the program
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
